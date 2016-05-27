@@ -1,0 +1,14 @@
+.panel{
+
+    padding: auto;
+    margin: auto;
+    margin-top: 50px;
+    height: 50%;
+    width: 50%;
+}
+
+
+option{
+    background-color: #1b6d85;
+    border: 1px solid black;
+}
