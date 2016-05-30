@@ -1,0 +1,14 @@
+div.changeBackgroundColor {
+    background-color: #3E606F;
+    margin-top: 2%;
+    /*border-radius: 100%;*/
+}
+
+h1.thumbnail {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+body {
+    background-color: #D1DBBD;
+}
