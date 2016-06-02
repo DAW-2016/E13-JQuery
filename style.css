@@ -2,6 +2,7 @@ div.changeBackgroundColor {
     background-color: #3E606F;
     margin-top: 2%;
     /*border-radius: 100%;*/
+    border: 1px solid black;
 }
 
 h1.thumbnail {
@@ -11,4 +12,19 @@ h1.thumbnail {
 
 body {
     background-color: #D1DBBD;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.selectpicker {
+    margin-bottom: 2%;
+}
+
+.myclass { color: #FA5858; } /*Exe5*/
+
+#showCSS {
+    margin-bottom: 10px;
 }

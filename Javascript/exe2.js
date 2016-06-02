@@ -6,5 +6,6 @@ $(document).ready(function(){
             var element = li[i];
             $(element).html("[" + (i+1) + "]" + $(element).html())
         }
+        $("button.numerar").attr('disabled', 'true');
     });
 });
