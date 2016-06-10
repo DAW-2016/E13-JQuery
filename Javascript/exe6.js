@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#interactive").click(function(){
+        $(this).css("background-color","#91AA9D");
+    });
+    $("#interactive").dblclick(function(){
+        $(this).css("background-color","#193441");
+    });
+    $("#interactive").mouseover(function(){
+        $(this).css("color","lightblue");
+    });
+    $("#interactive").mouseleave(function(){
+        $(this).css("color","black");
+    });
+});

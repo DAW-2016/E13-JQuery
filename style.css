@@ -1,0 +1,39 @@
+div.changeBackgroundColor {
+    background-color: #3E606F;
+    margin-top: 2%;
+    /*border-radius: 100%;*/
+    border: 1px solid black;
+}
+
+h1.thumbnail {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+body {
+    background-color: #D1DBBD;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+.selectpicker {
+    margin-bottom: 2%;
+}
+
+.myclass { color: #FA5858; } /*Exe5*/
+
+#showCSS {
+    margin-bottom: 10px;
+}
+
+#interactive {
+    border: 2px solid black;
+
+}

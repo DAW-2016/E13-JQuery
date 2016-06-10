@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>Jquery</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <!-- Bootstrap Select -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
+
+        <!-- Personal css -->
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center thumbnail">Exercício 1</h1>
+                    <h4>Implemente um Script em jQuery que mude a cor de fundo de uma página ao clicar em uma determinada cor.</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img-rounded col-xs-offset-4 col-xs-4 changeBackgroundColor">
+                    <h2 class="text-center">Clique na div</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center thumbnail">Exercício 2</h1>
+                    <h4>Escreva um Script em jQuery que insira um índice a frente de todos os itens de uma lista ul. Exemplo:<br>[1] HTML Tutorial<br>[2] CSS<br>[3] JavaScript</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-6 col-xs-pull-3 col-xs-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">HTML Tutorial</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">Javascript</li>
+                    </ul>
+                    <div class="text-center">
+                        <button type="button" style="margin-top: 15px" class="btn btn-default numerar">Numerar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center thumbnail">Exercício 3</h1>
+                    <h4>Encontre um elemento option com um determinado valor a ser fornecido pelo usuário. Exemplo: Usuário passa o valor bmw, então você deverá buscar pelo elemento &ltoption ... value="bmw"&gtCarro BMW&lt/option&gt</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <select class="selectpicker" data-live-search="true" data-width="40%">
+                      <option>Lorem ipsum dolor sit amet</option>
+                      <option>Consectetur adipisicing elit</option>
+                      <option>sed do eiusmod tempor incididunt</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center thumbnail">Exercício 4</h1>
+                    <h4>Escreva um código jQuery que imprima o CSS de um elemento clicado pelo usuário.</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <div class="text-center">
+                        <button type="button" style="margin-top: 15px" class="btn btn-default" id="showCSS">Clique!</button>
+                        <p id="cssWriter">CLIQUE NO BOTÃO ACIMA E EU ME TORNAREI UMA DESCRIÇÃO DE SEU CSS!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- EXE5 ESTÁ NO PARÁGRAFO DO EXE4 -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center thumbnail">Exercício 6</h1>
+                    <h4>Implemente um código em jQuery que alterne o estilo de um elemento com base na interação do usuário (mouse over, click, double click, etc.).</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="interactive" class="text-center col-xs-6 col-xs-offset-3">
+                        <h3>I HAVE INTERACTIONS!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center thumbnail">Exercício 7</h1>
+                    <h4>Implemente um código jQuery que faça a validação do número de dígitos do CPF quando o campo de CPF perder o foco. Dica: estude a respeito da função blur()</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center col-xs-6 col-xs-offset-3">
+                    <h4>Digite seu CPF abaixo:</h4>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="cpf" aria-describedby="helpBlock2" placeholder="CPF">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center thumbnail">Exercício 8</h1>
+                    <h4>Escreva um código jQuery que mostre o tipo de um elemento que foi clicado pelo usuário. Exemplo: se o usuário clicar neste elemento, deverá ser mostrado a para usuário, pois o elemento é um link.</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 id="wichTag">CLIQUE EM MIM :)</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Jquery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <!-- Exercises -->
+        <script type="text/javascript" src="Javascript/exe1.js"></script>
+        <script type="text/javascript" src="Javascript/exe2.js"></script>
+        <script type="text/javascript" src="Javascript/exe3.js"></script>
+        <script type="text/javascript" src="Javascript/exe4.js"></script>
+        <script type="text/javascript" src="Javascript/exe5.js"></script>
+        <script type="text/javascript" src="Javascript/exe6.js"></script>
+        <script type="text/javascript" src="Javascript/exe7.js"></script>
+        <script type="text/javascript" src="Javascript/exe8.js"></script>
+
+        <!-- Bootstrap Select -->
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+
+        <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/i18n/defaults-*.min.js"></script> -->
+
+
+    </body>
+
+</html>
